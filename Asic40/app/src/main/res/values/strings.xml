@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Asic80</string>
+
+    <string-array name="sp_os">
+        <item>Android</item>
+        <item>IOS</item>
+        <item>Windows Phone</item>
+    </string-array>
+
+    <string-array name="sp_jenjang">
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+    </string-array>
+
+</resources>

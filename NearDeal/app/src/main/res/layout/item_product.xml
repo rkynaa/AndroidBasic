@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_ip"
+    app:cardUseCompatPadding="true"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_margin="10dp"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/Piv_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/Ptv_title"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:text="Android 8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/Ptv_descript"
+                android:gravity="center"
+                android:text="Testing!"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/Ptv_desc"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Android Pi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
